@@ -1,5 +1,3 @@
-### Mayank Nagar MDS202334<br> Narendra C MDS202336
-
 # NoteBook Contents:
 
 - Kmean clustering for docword.kos.txt dataset
@@ -63,4 +61,3 @@ For ENRON Dataset the results are the following.
 - Optimal Value of k is 15.
 - Time taken is 2.05 sec.
 - Memory is 16 MB.
-# Kmean-on-text-documents
