@@ -22,7 +22,7 @@ The Kmeans class contains the following functions:
 
    - Parameters for this are _init_ we can assign this parameter to 'kmean' or 'kmean++' depending on whether we like to implement k-means or k-means ++ algorithm. By default it is kmean.
    - In kmean we randomly assign centroids at the start of the algorithm, whereas in kmean++ we try to initialize centroids as far apart as possible. In order to do this our function assigns probabilities to all the instances in the dataset (except for those instances that are centroids themselves) in such a way that the points that are further from all the centroids gets assigned high probability compared to the points that are closer.
-   - Take a new centroid $ c(i)$, choosing an instance $x(i)$ with probability:$$\frac{D(X(i))^2}{\sum_{j=1}^{m}D(X(j))^2}$$ where $m$ is the number of instances and $D(x(i))$ is the distance between the instance $x(i)$ and the closest centroid that was already chosen.
+   - Take a new centroid $c(i)$, choosing an instance $x(i)$ with probability: $$\frac{D(X(i))^2}{\sum_{j=1}^{m}D(X(j))^2}$$ where $m$ is the number of instances and $D(x(i))$ is the distance between the instance $x(i)$ and the closest centroid that was already chosen.
 
 2. _update_centroids_:
 
