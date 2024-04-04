@@ -8,7 +8,7 @@
 
 We are using Jaccard distance for comparing documents.
 
-$$Jaccard\ Distance = \frac{\# (a \cap b)}{\# (a \cup b)}$$
+$$Jaccard\ Distance = \frac{count(a \cap b)}{count(a \cup b)}$$
 
 parameters for Kmean:
 
